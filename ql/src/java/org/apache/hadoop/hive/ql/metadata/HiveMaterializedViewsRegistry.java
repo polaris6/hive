@@ -120,6 +120,10 @@ public final class HiveMaterializedViewsRegistry {
    */
   public void init(final Hive db) {
     try {
+      if (db.getConf().getBoolVar(HiveConf.ConfVars.
+                      HIVE_SERVER2_MATERIALIZED_VIEWS_CACHE_DISABLE_AT_STARTUP)){
+          return;
+      }
       List<Table> tables = new ArrayList<Table>();
       for (String dbName : db.getAllDatabases()) {
         // TODO: We should enhance metastore API such that it returns only
