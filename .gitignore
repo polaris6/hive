@@ -28,4 +28,8 @@ hcatalog/storage-handlers/hbase/target
 hcatalog/webhcat/svr/target
 conf/hive-default.xml.template
 itests/hive-blobstore/src/test/resources/blobstore-conf.xml
+.pre-commit-config.yaml
 .DS_Store
+.codecc
+build.yml
+.code.yml
