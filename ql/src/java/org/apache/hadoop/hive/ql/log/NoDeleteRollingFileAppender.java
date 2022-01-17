@@ -27,8 +27,8 @@ import org.apache.log4j.FileAppender;
 import org.apache.log4j.Layout;
 import org.apache.log4j.helpers.CountingQuietWriter;
 import org.apache.log4j.helpers.LogLog;
-import org.apache.log4j.helpers.OptionConverter;
 import org.apache.log4j.spi.LoggingEvent;
+import org.apache.logging.log4j.core.util.OptionConverter;
 
 public class NoDeleteRollingFileAppender extends FileAppender {
   /**
