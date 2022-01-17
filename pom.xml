@@ -21,7 +21,7 @@
   </parent>
   <groupId>org.apache.hive</groupId>
   <artifactId>hive</artifactId>
-  <version>2.3.4-bkbase.1-SNAPSHOT</version>
+  <version>${reversion}</version>
   <packaging>pom</packaging>
 
   <name>Hive</name>
@@ -60,6 +60,7 @@
   </modules>
 
   <properties>
+    <reversion>2.3.4-bkbase.2</reversion>
     <hive.version.shortname>2.3.0</hive.version.shortname>
 
     <!-- Build Properties -->
