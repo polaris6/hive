@@ -1,5 +1,5 @@
 
-Release Notes - Hive - Version 2.3.4-bkbase.2
+Release Notes - Hive - Version 2.3.4-bkbase.3
 
 
 
